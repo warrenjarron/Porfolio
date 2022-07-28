@@ -12,3 +12,28 @@ innerHTML = messageArray [0].substring(0,
 }
 
 window.addEventListener("load", typewriter);
+
+
+
+
+
+
+
+
+
+
+
+
+// let button = document.getElementById(""dark-mode);
+//  let body = document.querySelector("body"); 
+//  let tittle = document.querySelector("h1");
+//  let paragraphe = document.querySelector("P");
+
+// console.log("button" , body);
+// const darkMode = () => {
+//     body.classList.remove("bg-white");
+//     body.classList.remove("dark-bg-black");
+
+// };
+
+// button.addEventListener("click", darkMode);

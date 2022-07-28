@@ -45,9 +45,11 @@ top: 46em;
 }
 .container .text{
   position: relative;
-  color: #4070F4;
+  color: white;
   font-size: 58px;
   font-weight: 900;
+  background-color: black;
+
 }
 .container .text.first-text{
   color: #FFF;
@@ -211,10 +213,47 @@ top: 46em;
   color: black;
 }
 
-.w-109 {
+.w-24 {
   width: 24%;
 }
 .fixed{
   position: fixed;
 }
+.bg-black {
+  background-color: black;
+}
+.h-212 {
+  height: 212px;
+}
+
+.rounded-md {
+  border-radius: 5px;
+}
+
+.w-200 {
+  width: 200px
+}
+
+.h-28 {
+  height: 28px;
+}
+
+.font-black {
+  font-weight: 900
+}
+
+.no-underline {
+  text-decoration: none;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+
+.p-4 {
+  padding: 4px;
+}
+
+
+
+
 
