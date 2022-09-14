@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+}
+.pl-5 {
+  padding-left: 5px;
+}
+.hello {
+  color: red;
+  font-family: "Roboto";
+}
+
+
+.bg-white {
+  background-color: white;
+
+}
+.text-black {
+  color: black;
+}
+/* .bg-img-background {
+  background-image: url(../img/fond-vaste.png);
+} */
+.z-10 {
+  z-index: -1;
+}
+
+
+.h-10 {
+  height: 50px;
+}
+.w-1-5 {
+  width: 10%;
+}
+
+.bottom-96 {
+  bottom: 79%;
+}
+
+.bg-size {
+  background-size: cover;
+}
+
+.h-96 {
+  height: 100vh;
+}
+
+.h-full {
+  height: 2030px;
+}
+.h-80 {
+  height: 319px;
+}
+.w-11-12 {
+  width: 154%;
+}
+
+.bg-gradient {
+ background:  linear-gradient(45deg,#f472b6, pink, red);
+}
+
+.bg-cover {
+
+  background-size: 500%;
+}
+
+.animate{
+  animation: animate 5s ease infinite;
+}
+@keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* >>>>>>> leadDev-warren */
+
+
