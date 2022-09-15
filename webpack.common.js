@@ -18,8 +18,8 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/contact/index.html"),
-      filename: "contact.html",
+      template: path.resolve(__dirname, "./src/pages/Discover/index.html"),
+      filename: "discover.html",
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/pages/services/index.html"),
