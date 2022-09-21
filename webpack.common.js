@@ -19,7 +19,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/pages/Discover/index.html"),
-      filename: "discover.html",
+      filename: "Discover.html",
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/pages/services/index.html"),
